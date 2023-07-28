@@ -1,0 +1,78 @@
+.card {
+  display: inline-block;
+  align-content: center;
+  align-items: center;
+  vertical-align: middle;
+  margin: 20px;
+  background-color: #c94d7898;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: black 5px solid;
+  width: 250px; /* Ajusta el valor según tu preferencia */
+  height: 450px; /* Ajusta el valor según tu preferencia */
+  overflow: hidden;
+}
+
+.button {
+  background: rgb(235, 234, 234);
+  border: none;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  position: relative;
+  float: right;
+  width: 10%;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.button:hover {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(220.55deg, #ff0000 0%, #470000 100%);
+  color: white;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.tittle {
+  display: inline-flex;
+  text-align: center;
+  margin-left: 15px;
+  background-color: rgb(44, 121, 151);
+  border-radius: 10% / 20% 30% 50% 50%;
+  text-decoration: none;
+  padding: 5px 10px; /* Ajusta los valores de padding según tu preferencia */
+  font-size: 14px; /* Ajusta el tamaño de fuente según tu preferencia */
+}
+
+.name {
+  width: 200px; /* Ajusta el valor según tu preferencia */
+  font-size: 18px; /* Ajusta el valor según tu preferencia */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.infoExtra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  color: rgb(3, 58, 80);
+}
+
+.link {
+  text-decoration: dotted;
+  color: black;
+}
+
+.imgCharacter {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

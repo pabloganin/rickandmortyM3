@@ -1,0 +1,128 @@
+/* Primer archivo CSS */
+
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  background-color: #0000007a;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.buttonAgregar {
+  background: linear-gradient(220.55deg, #7cf7ff 0%, #4b73ff 100%);
+  border: none;
+  z-index: 1;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  width: auto;
+  height: 50px;
+}
+
+.buttonAgregar:hover {
+  color: #fff;
+  background: #00b960;
+}
+
+.buttonAgregar:active {
+  top: 2px;
+}
+
+input {
+  display: inline-block;
+  max-width: 230px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 5px solid #1d47fe;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+  font: normal 19px / normal "Courier New", Courier, monospace;
+  color: rgba(42, 255, 0, 1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(45, 45, 45, 1);
+  box-shadow: 0 0 9px 4px rgba(0, 0, 0, 0.15),
+    -1px 4px 8px -1px rgba(0, 0, 0, 0.49) inset;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+}
+
+input:hover {
+  -webkit-transform: rotateX(-15.62deg) rotateY(-23.65deg);
+  transform: rotateX(-15.62deg) rotateY(-23.65deg);
+}
+
+.search__icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: #b4b4b4;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Segundo archivo CSS */
+
+.navContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  background-color: #0000007a;
+  width: 100%;
+  height: 100%;
+}
+
+.links {
+  background: linear-gradient(220.55deg, #7cf7ff 0%, #4b73ff 100%);
+  border: none;
+  z-index: 1;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  width: auto;
+  height: 50px;
+  text-decoration: none;
+}
+
+.logout {
+  background: linear-gradient(220.55deg, #7cf7ff 0%, #4b73ff 100%);
+  border: none;
+  z-index: 1;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  width: auto;
+  height: 50px;
+  text-decoration: none;
+}
+
+.links:hover,
+.logout:hover {
+  background: #00b960;
+  text-decoration: none;
+}
+
+.links,
+.links a,
+.logout,
+.logout a {
+  text-decoration: none;
+  cursor: pointer;
+}
